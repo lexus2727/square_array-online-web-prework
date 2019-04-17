@@ -9,10 +9,10 @@ def square_array(array)
   end
   square_array( [1, 2, 3])
   
- def square_array(array)
+ def square_array2(array)
    arr = []
    array.each {|num| arr << num ** 2}
    arr
  end
- square_array([9, 10, 16, 25])
+ square_array2([9, 10, 16, 25])
    
