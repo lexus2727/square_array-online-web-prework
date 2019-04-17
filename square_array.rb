@@ -9,4 +9,6 @@ def square_array(array)
   end
   square_array( [1, 2, 3])
   
-  def
+ def square_array(new_numbers)
+   arr = []
+   arr.collect {|num| num 
