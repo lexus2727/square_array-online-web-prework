@@ -9,6 +9,10 @@ def square_array(array)
   end
   square_array( [1, 2, 3])
   
- def square_array(new_numbers)
+ def square_array(array)
    arr = []
-   arr.collect {|num| num 
+   array.each {|num| arr << num ** 2}
+   arr
+ end
+ square_array([9, 10, 16, 25])
+   
